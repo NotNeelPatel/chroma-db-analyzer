@@ -16,7 +16,7 @@ def inspect_chroma_db():
         collections_list = client.list_collections()
         
         if not collections_list:
-            print("\n⚠️  No collections found! Are you pointing to the right folder?")
+            print("\nNo collections found! Are you pointing to the right folder?")
             return
 
         print(f"\nFound {len(collections_list)} collection(s).")
